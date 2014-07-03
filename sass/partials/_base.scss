@@ -35,3 +35,34 @@
   }
 }
 
+.front-end {
+  height: 450px;
+  background: #ffeb3b;
+  position: relative;
+  > div {
+    @include inline-block();
+  }
+  .html {
+    position: absolute;
+    width: 200px;
+    top: 10px;
+    left: 0;
+    padding: 30px;
+    background: #42bd41;
+  }
+  .css {
+    position: absolute;
+    width: 200px;
+    left: 300px;
+    bottom: 0;
+    padding: 30px;
+    background: #4dd0e1;
+  }
+  .js {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    padding: 120px 30px 30px 30px;
+    background: #ffeb3b;
+  }
+}

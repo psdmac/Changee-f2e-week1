@@ -41,3 +41,45 @@
   height: 600px;
   margin: 0 auto;
 }
+
+/* line 38, ../sass/partials/_base.scss */
+.front-end {
+  height: 450px;
+  background: #ffeb3b;
+  position: relative;
+}
+/* line 42, ../sass/partials/_base.scss */
+.front-end > div {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+/* line 45, ../sass/partials/_base.scss */
+.front-end .html {
+  position: absolute;
+  width: 200px;
+  top: 10px;
+  left: 0;
+  padding: 30px;
+  background: #42bd41;
+}
+/* line 53, ../sass/partials/_base.scss */
+.front-end .css {
+  position: absolute;
+  width: 200px;
+  left: 300px;
+  bottom: 0;
+  padding: 30px;
+  background: #4dd0e1;
+}
+/* line 61, ../sass/partials/_base.scss */
+.front-end .js {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  padding: 120px 30px 30px 30px;
+  background: #ffeb3b;
+}
